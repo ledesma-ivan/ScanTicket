@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Escáner de Tickets</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .upload-box { border: 2px dashed #ccc; padding: 20px; text-align: center; margin: 20px 0; }
+        button { background: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Escáner de Tickets</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <div class="upload-box">
+            <h3>Selecciona una imagen de ticket</h3>
+            <input type="file" name="image" accept="image/*" required>
+        </div>
+        <button type="submit">Procesar Ticket</button>
+    </form>
+</body>
+</html>
