@@ -1,4 +1,4 @@
-# ScanTicket
+# ScanTicket (Argentina)
 Funciones:
 
 Escaneo de tickets (Cargando desde la computadora).
