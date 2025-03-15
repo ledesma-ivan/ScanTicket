@@ -1,4 +1,4 @@
-from app import Flask, render_template, request, send_file
+from flask import Flask, render_template, request, send_file
 import pytesseract
 from PIL import Image
 import pandas as pd
